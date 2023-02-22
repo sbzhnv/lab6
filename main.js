@@ -1,4 +1,4 @@
-function greet(name){
-    console.log("Hello, "+ name);
+function greetings(name){
+    var name = prompt("Please, enter your name:");
+    console.log("Hi, "+ name+”!”);
     }
-     greet(prompt("Enter Name:"));
